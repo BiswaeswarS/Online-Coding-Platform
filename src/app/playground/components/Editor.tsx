@@ -10,7 +10,7 @@ const Editor: React.FC<EditorProps> = ({ value, onChange }) => {
     <MonacoEditor
       height="60vh"
       width="50vw"
-      language="python"
+      language="cpp"
       value={value}
       theme="vs-dark"
       onChange={(value: string) => onChange(value || '')}

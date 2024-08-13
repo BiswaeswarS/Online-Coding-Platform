@@ -33,7 +33,7 @@ export default function Home() {
         let s = data.output;
         for (let i = s.length - 1; i >= 0; i--) {
           if (s[i] === ' ') {
-            setOutput(s.substring(0, i - 1) + "\n");
+            setOutput(s.substring(0, i ) + "\n");
             setRuntime("Runtime : " + s.substring(i + 1) + " ms");
             break;
           }

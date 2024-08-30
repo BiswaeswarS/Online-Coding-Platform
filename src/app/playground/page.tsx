@@ -85,7 +85,7 @@ export default function Home() {
           </div>
           <div className='right'>
             <textarea
-              className="in"
+              className="in text-white"
               placeholder="Enter custom input here..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
